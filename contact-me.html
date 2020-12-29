@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h3>My Contact </h3>
+    <div class="contact-links">
+        <a href="mailto:example@email.com"><img src="https://upload.wikimedia.org/wikipedia/commons/5/50/TK_email_icon.svg" alt="Email_icon" width="30"></a> 
+        <a href="https://www.linkedin.com/"><img src="https://cdn.onlinewebfonts.com/svg/img_24593.png" alt="LinkedIn_logo" width="30"></a> 
+        <a href="https://codepen.io/"><img src="http://thenewcode.com/assets/images/thumbnails/codepen-logo-reverse.png" alt="Codepen.io" width="30"></a> 
+        <a href="https://github.com/"><img src="https://major.io/wp-content/uploads/2014/08/github.png" alt="GitHub_logo" width="30"></a> 
+    </div>
+    <hr>
+    <div class="contact-form">      
+        <form action="mailto:example@email.com" method="post" enctype="text/plain">
+            <label for="name">First Name:</label>
+            <input type="text" name="firstname" placeholder="Your First Name"><br>
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" placeholder="Your Last Name"><br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <label for="text">Your Message:</label><br>
+            <textarea name="feedback" cols="35" rows="10" placeholder="Leave your message here!"></textarea><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
