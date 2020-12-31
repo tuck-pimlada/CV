@@ -1,0 +1,74 @@
+body {
+    background-color: #222831;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #eeeeee;
+}
+
+h1 {
+    color: #ffd369;
+    font-family: 'DM Serif Display', serif;
+}
+
+h3 {
+    background-color: #ffd369;
+    padding: 15px;
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+h4 {
+    font-family: 'DM Serif Display', serif;
+    padding: 0 10px;
+    color: black;
+}
+
+hr {
+    border-style: none;
+    border-top: 10px dotted;
+    border-color: #393e46;
+    width: 10%;
+}
+
+.education, .recent-projects, .skills {
+    background-color: #393e46;
+    color: #eeeeee;
+    margin: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.extra {
+    text-align: center;
+    margin: 30px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: #ffd369;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover, a:active {
+    background-color:#f3c623;
+}
+
+*::selection {
+    background-color: #f05454;
+} 
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-links {
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 10px;
+    border-color: #ffd369;
+}

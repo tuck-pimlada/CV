@@ -4,36 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pimlada's Personal Site</title>
-    
-    <!-- Adding Internal CSS -->
-    <style>
-        body {
-            background-color: #968c83;
-        }
 
-        hr {
-            border-style: none;
-            border-top: 5px dotted;
-            width: 10%;
-            color: #fff5ea;
-        }
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
 
-        .bio, .extra {
-            background-color: #f7dad9;
-        }
-
-        .education, .recent-projects, .skills {
-            background-color: #fff5ea;
-            border-radius: 30px;
-            padding: 0 0 10px 0;
-        }
-
-        h2 {
-           background-color:#d6d2c4; 
-           border-radius: 30px;
-           padding: 10px 10px 10px 30px;
-        }
-    </style>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -43,7 +20,7 @@
                 <td><img src="https://raw.githubusercontent.com/tuck-pimlada/cv/master/images/pimlada-200pxx.png" alt="Pimlada Profile Picture"/>
                 </td>
                 <td><h1 cellspacing="10">Pimlada Chow</h1>
-                    <p>Graduate student in <a href="https://www.nucamp.co/"><strong>Nucamp Coding Bootcamp</strong></a></p>
+                    <p>Graduate student in<strong> Nucamp Coding Bootcamp</strong></p>
                     <p>Focusing on <em>FullStack Web & Mobile Development</em></p>
                 </td>
             </tr>
@@ -51,7 +28,7 @@
     </div>
     <hr>
     <div class="education">
-        <h2>Education</h2>
+        <h3>Education</h3>
         <ul>
             <li>2020 Nucamp Coding Bootcamp</li>
                 <ol>
@@ -65,7 +42,7 @@
     </div>
     <hr>
     <div class="recent-projects">
-    <h2>Recent Projects</h2>
+    <h3>Recent Projects</h3>
         <ul>
             <li>
                 <strong>Pimlada Chow CV</strong><br>
@@ -75,7 +52,7 @@
     </div>
     <hr>
     <div class="skills">
-        <h2>Skills</h2>
+        <h3>Skills</h3>
         <table cellspacing="10px"> 
             <tr>
                 <td>
@@ -179,8 +156,33 @@
     </div>
     <hr>
     <!-- Adding Inline CSS -->
-    <div class="extra" style="text-align: center; font-size: 1.5em;">
-        <a href="hobbies.html">✨ My Hobbies</h3></a> | <a href="contact-me.html">📱 Contact Me</a>
+    <div class="extra">
+        <a href="hobbies.html"><h4>✨ My Hobbies</h4></a>
+        <a href="contact-me.html"><h4>📱 Contact Me</h4></a>
     </div>
 </body>
+<footer>
+    <div class="footer-top">
+        <h5>PIMLADA 2020</h5>
+    </div>
+    <div class="footer-middle">
+        <div class="row">
+            <div class="col">
+                <div class="social">
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://www.twiiter.com">Twiiter</a>
+                    <a href="https://www.instagram.com">Instagram</a>
+                    <a href="https://www.linkedin.com">LinkedIn</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="links">
+                    <a href="index.html">HOME</a>
+                    <a href="contact-me.html">CONTACT</a>
+                    <a href="hobbies.html">HOBBIES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
