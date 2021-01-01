@@ -1,0 +1,78 @@
+/*************** TAG Selection ****************/
+*::selection {
+    background-color: #f05454;
+} 
+
+a:link, a:visited {
+    background-color: #ffd369;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color:#f3c623;
+}
+
+body {
+    background-color: #222831;
+    color: #eeeeee;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
+    color: #ffd369;
+    font-family: 'DM Serif Display', serif;
+}
+
+h3 {
+    background-color: #ffd369;
+    color: black;
+    font-family: 'DM Serif Display', serif;
+    padding: 15px;
+}
+
+h4 {
+    color: black;
+    font-family: 'DM Serif Display', serif;
+    padding: 0 10px;
+}
+
+hr {
+    border-color: #393e46;
+    border-style: none;
+    border-top: 10px dotted;
+    width: 10%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/*************** CLASS Selection ****************/
+
+.contact-form {
+    border-color: #ffd369;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-links {
+    margin: 10px;
+    text-align: center;
+}
+
+.education, .recent-projects, .skills {
+    background-color: #393e46;
+    box-sizing: border-box;
+    color: #eeeeee;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.extra {
+    margin: 30px;
+    text-align: center;
+}
+
